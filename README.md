@@ -40,7 +40,17 @@ The best dashboard explanation format.
 
 Example:
 •	Business Problem
-The global ski tourism industry generates billions in revenue, yet travelers, tour operators, and analysts often lack an intuitive way to compare resorts across countries. 
+| Sno | Measures                  | Description                                                 |
+| --- | ------------------------- | ----------------------------------------------------------- |
+| 1   | Revenue                   | Sum of revenue\_realized                                    |
+| 2   | Total Bookings            | Count of booking\_id in fact\_bookings                      |
+| 3   | Average Rating            | Average of ratings\_given                                   |
+| 4   | Total Capacity            | Sum of capacity                                             |
+| 5   | Total Successful bookings | Sum of successful\_bookings from fact\_bookings             |
+| 6   | Occupancy %               | Ratio of Total Successful Bookings to Total Capacity        |
+| 7   | Total Cancelled Bookings  | Count of booking\_id in which booking\_status = "Cancelled" |
+| 8   | Cancellation Rate         | Ratio of 'Total Cancelled Bookings' to 'Total Bookings'     |
+
 
 Key questions such as:
 Which regions offer the most family-friendly or expert-level skiing?
