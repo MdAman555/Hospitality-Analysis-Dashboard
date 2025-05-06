@@ -1,17 +1,21 @@
 # Hospitality-Analysis-Dashboard
 ## Recommended Structure and Order
-### 1.	Project Title / Headline
+### 1.	Hospitality Analysis Dashboard / *** AtliQ Grand Owns Multiple Five-Star Hotels Industry Across India****
 A concise, descriptive name for the dashboard.
 Example: 
 ❄️ Snowy Analytics: Hospitality Analysis Dashboard
-A dynamic, interactive data visualization tool built to explore hotels' raw data for "AtliQ Grand's Owns multiple Five-Star Hotels across India", focusing on RevPar(revenue per available room), ADR(average daily rate), 
+A dynamic, interactive data visualization tool built to explore hotels' raw data for "AtliQ Grand's Owns multiple Five-Star Hotels across India", focusing on RevPar(revenue per available room), ADR(average daily rate), and Occupancy percentage, SRN(sellable room nights), DSRN(daily sellable room nights).
 
 ### 2.	Short Description / Purpose
 1–2 sentences explaining what the dashboard does and why it exists.
 
 Example: 
-The Snowy Analytics Dashboard is a visually engaging and analytical Power BI report designed to help users explore and compare over 499 ski resorts across 38 countries and 5 continents. The dashboard focuses on highlighting major ski resort features like summer skiing availability, night skiing, lift types, and slope difficulty. This tool is intended for use by tourism analysts, winter sports enthusiasts, travel companies, and data-driven strategists who seek to understand trends and characteristics of ski resorts globally.
+AtliQ Grands owns multiple five-star hotels across India. They have been in the hospitality Industry for the past 20 years.
+Due to strategic moves from the other competitors and ineffective decision-making in management, AtliQ Grand is losing its market share and revenue 
+in the luxury/business hotels category. As a strategic move, the managing director of AtliQ Grands wanted to incorporate"Business and Data intelligence"
+to regain their market share and revenue. However, they do not have an in-house data analytics team to provide them with these insights.
 
+Their Revenue Management team had decided to hire a third-party service provider to provide them with insights from their historical data.
 ### 3.	Tech Stack
 List the key technologies used to build the dashboard.
 
@@ -26,16 +30,13 @@ The dashboard was built using the following tools and technologies:<br>
 ### 4.	Data Source
 More info on where the data comes from and how it’s structured
 Example:
-Source: Ski-resort-stats.com & NASA Earth Observations. 
-
-Data on ~500 ski resorts around the world, including details on their location, prices, slopes, lifts, and seasons, as well as a complementary table with the snow cover around the world for each month of 2022.
-
+Source: from a particular YouTube channel for data analytics project pulled from the zip file named "CodeBasics"
 
 ### 5.	Features / Highlights
 The best dashboard explanation format. 
 •	Business problem
 •	Goal of the dashboard
-•	Walk through of key visuals (briefly!)
+•	Walk-through of key visuals (briefly!)
 •	Business impact & Insights
 
 Example:
@@ -47,7 +48,7 @@ Example:
 | 3   | Average Rating            | Average of ratings\_given                                   |
 | 4   | Total Capacity            | Sum of capacity                                             |
 | 5   | Total Successful bookings | Sum of successful\_bookings from fact\_bookings             |
-| 6   | Occupancy %               | Ratio of Total Successful Bookings to Total Capacity        |
+| 6   | Occupancy%                | Ratio of Total Successful Bookings to Total Capacity        |
 | 7   | Total Cancelled Bookings  | Count of booking\_id in which booking\_status = "Cancelled" |
 | 8   | Cancellation Rate         | Ratio of 'Total Cancelled Bookings' to 'Total Bookings'     |
 
@@ -59,11 +60,13 @@ What countries have the most well-equipped resorts?
 … are difficult to answer quickly with raw data.
 
 •	Goal of the Dashboard
-To deliver an interactive visual tool that:
-Enables users to explore ski resorts globally.
-Supports decisions such as vacation planning, regional marketing, or infrastructure investment.
-Uncovers trends in terrain, accessibility, and tourism capacity by region and resort.
-
+We are going to filter the categories of required visualization, and also the goal of dashboard.
+1. Filter by properties
+2. Filter by city
+3. Filter by status
+4. Filter by platform
+5. Filter by months
+6. Filter by weeks
 •	Walkthrough of Key Visuals
 -	Key KPIs (Top Left)
 Total number of resorts: 499
@@ -83,18 +86,15 @@ Two line visuals side by side: one for resorts that cater to beginners, another 
 -	Elevation Stats (Grouped Bar Chart)
 Compare the highest and lowest elevation points of resorts to understand terrain steepness and potential snow quality.
 -	Lift Types by Resort (Stacked Bar Chart)
-Stacked bar chart showing:
-Gondola lifts
-Chair lifts
-Surface lifts
-Total lifts
-This helps users gauge resort infrastructure and capacity.
+A stacked bar chart showing:
+1. Card visualization chart
+2. Line chart
+3. Donut Chart
+4. Stacked Column Chart
+5. using Key Measures showing all the required columns and rows. 
 
 •	Business Impact & Insights
-Marketing Optimization: Travel agencies can use this dashboard to identify key selling points for different demographics (e.g., child-friendly resorts or expert terrain).
-Strategic Expansion: Resort developers can spot underdeveloped regions with high potential.
-Vacation Planning: Tourists can plan trips based on slope availability, elevation, and terrain difficulty.
-Regional Analysis: Governments and tourism bodies can analyze competitiveness by region.
+
 
 ### 6.	Screenshots / Demos
 Show what the dashboard looks like. - ![Alt text](https://github.com/username/repo/assets/image.png)
