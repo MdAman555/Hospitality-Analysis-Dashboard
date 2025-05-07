@@ -11,7 +11,7 @@ A dynamic, interactive data visualization tool built to explore hotels' raw data
 
 Example: 
 AtliQ Grands owns multiple five-star hotels across India. They have been in the hospitality Industry for the past 20 years.
-Due to strategic moves from the other competitors and ineffective decision-making in management, AtliQ Grand is losing its market share and revenue 
+Due to strategic moves from the other competitors and ineffective management decision-making, AtliQ Grand is losing its market share and revenue 
 in the luxury/business hotels category. As a strategic move, the managing director of AtliQ Grands wanted to incorporate"Business and Data intelligence"
 to regain their market share and revenue. However, they do not have an in-house data analytics team to provide them with these insights.
 
@@ -30,13 +30,12 @@ The dashboard was built using the following tools and technologies:<br>
 ### 4.	Data Source
 More info on where the data comes from and how it’s structured
 Example:
-Source: from a particular YouTube channel for data analytics project pulled from the zip file named "CodeBasics"
+Source: from a particular YouTube channel for a data analytics project pulled from the zip file named "CodeBasics"
 
 ### 5.	Features / Highlights
 The best dashboard explanation format. 
 •	Business problem
 •	Goal of the dashboard
-•	Walk-through of key visuals (briefly!)
 •	Business impact & Insights
 
 Example:
@@ -67,34 +66,42 @@ We are going to filter the categories of required visualization, and also the go
 4. Filter by platform
 5. Filter by months
 6. Filter by weeks
-•	Walkthrough of Key Visuals
--	Key KPIs (Top Left)
-Total number of resorts: 499
-Resorts with summer skiing: 29
-Resorts with night skiing: 204
-Child-friendly resorts: 495
-Countries covered: 38
-Continents represented: 5
--	Continent Filter Panel
-An interactive slicer lets users filter all visuals by selected continents, such as Europe or Asia.
--	Top Countries with Most Resorts (Bar Chart)
-Bar chart ranks countries like Austria, France, and the U.S. by number of ski resorts.
--	Slopes by Resort (Line Chart)
-Displays the distribution of slope types (beginner, intermediate, expert, and total). Helps identify which resorts favor beginners vs. experts.
--	 Resorts by Skill Level (Dual Line Charts)
-Two line visuals side by side: one for resorts that cater to beginners, another for experts—allowing skill-level segmentation.
--	Elevation Stats (Grouped Bar Chart)
-Compare the highest and lowest elevation points of resorts to understand terrain steepness and potential snow quality.
--	Lift Types by Resort (Stacked Bar Chart)
+
 A stacked bar chart showing:
 1. Card visualization chart
 2. Line chart
 3. Donut Chart
 4. Stacked Column Chart
 5. using Key Measures showing all the required columns and rows. 
-
 •	Business Impact & Insights
+ 1. Revenue Performance Insight
+Total Revenue: ₹90M generated, with the highest contributor being Atliq Bay (₹21M).
+RevPAR (Revenue Per Available Room): ₹9.72K — a key profitability measure. Consistent performance indicates stable pricing and occupancy strategies.
+Realisation %: 70.89% shows room for improvement in actual bookings versus sellable rooms. Better alignment of demand forecasting and pricing could raise this.
+📊 2. Occupancy & Pricing Efficiency
+Occupancy %: 57.37% across properties, with Atliq Blu and Atliq Bay leading in efficiency (>63%).
+ADR (Average Daily Rate): ₹16.95K, steady across weeks (seen in the area chart), but RevPAR starts to dip post W20. This signals a drop in occupancy, not price cuts.
+DSRN: 101 average daily sellable room nights, showing consistent inventory availability.
+🧩 3. Property-wise Insights
+Atliq Bay and Atliq City have higher average ratings (≥4.25), better occupancy, and strong revenue — ideal benchmark properties.
+Atliq Exotica shows the lowest occupancy (45.48%) and average rating (3.09) — needs operational review or repositioning.
+Cancellation Rate: Highest at Atliq City (23.87%) — potential issue with guest experience or overbooking practices.
+📉 4. Trend Insights (Line & Area Chart)
+Post week W20, RevPAR and Occupancy % decline significantly while ADR remains flat — suggests rooms are priced correctly, but demand dropped.
+Calls for promotional offers, seasonal packages, or campaigns during those weeks to boost occupancy.
+🧁 5. Category-Based Segmentation (Donut Chart)
+Luxury category contributes ~60% of occupancy, compared to 56% from Business — suggesting that luxury rooms are more in demand.
+Encourages focusing resources, services, and marketing towards the luxury segment for revenue maximization.
+📱 6. Booking Platform Analysis
+ADR and Realisation % are relatively even across platforms, but direct online channels appear slightly better.
+Suggests investing more in own-brand promotions to reduce dependency on third-party platforms and improve margins.
 
+✅ Actionable Recommendations
+* Boost Occupancy in low-performing properties like Atliq Exotica via promotions or market repositioning.
+* Analyze Customer Feedback for properties with low ratings (e.g., Atliq Palace, Exotica).
+* Explore Dynamic Pricing for underperforming weeks to improve RevPAR.
+* Leverage Top Channels like Direct Online & Tripstar with targeted campaigns.
+* Focus on Luxury segment expansion given higher demand and revenue impact.
 
 ### 6.	Screenshots / Demos
 Show what the dashboard looks like. - ![Alt text](https://github.com/username/repo/assets/image.png)
