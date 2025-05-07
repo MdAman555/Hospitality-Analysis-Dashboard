@@ -74,25 +74,25 @@ A stacked bar chart showing:
 4. Stacked Column Chart
 5. using Key Measures showing all the required columns and rows. 
 •	Business Impact & Insights
- 1. Revenue Performance Insight
+* 1. Revenue Performance Insight
 Total Revenue: ₹90M generated, with the highest contributor being Atliq Bay (₹21M).
 RevPAR (Revenue Per Available Room): ₹9.72K — a key profitability measure. Consistent performance indicates stable pricing and occupancy strategies.
 Realisation %: 70.89% shows room for improvement in actual bookings versus sellable rooms. Better alignment of demand forecasting and pricing could raise this.
-📊 2. Occupancy & Pricing Efficiency
+* 📊 2. Occupancy & Pricing Efficiency
 Occupancy %: 57.37% across properties, with Atliq Blu and Atliq Bay leading in efficiency (>63%).
 ADR (Average Daily Rate): ₹16.95K, steady across weeks (seen in the area chart), but RevPAR starts to dip post W20. This signals a drop in occupancy, not price cuts.
 DSRN: 101 average daily sellable room nights, showing consistent inventory availability.
-🧩 3. Property-wise Insights
+* 🧩 3. Property-wise Insights
 Atliq Bay and Atliq City have higher average ratings (≥4.25), better occupancy, and strong revenue — ideal benchmark properties.
 Atliq Exotica shows the lowest occupancy (45.48%) and average rating (3.09) — needs operational review or repositioning.
 Cancellation Rate: Highest at Atliq City (23.87%) — potential issue with guest experience or overbooking practices.
-📉 4. Trend Insights (Line & Area Chart)
+* 📉 4. Trend Insights (Line & Area Chart)
 Post week W20, RevPAR and Occupancy % decline significantly while ADR remains flat — suggests rooms are priced correctly, but demand dropped.
 Calls for promotional offers, seasonal packages, or campaigns during those weeks to boost occupancy.
-🧁 5. Category-Based Segmentation (Donut Chart)
+* 🧁 5. Category-Based Segmentation (Donut Chart)
 Luxury category contributes ~60% of occupancy, compared to 56% from Business — suggesting that luxury rooms are more in demand.
 Encourages focusing resources, services, and marketing towards the luxury segment for revenue maximization.
-📱 6. Booking Platform Analysis
+* 📱 6. Booking Platform Analysis
 ADR and Realisation % are relatively even across platforms, but direct online channels appear slightly better.
 Suggests investing more in own-brand promotions to reduce dependency on third-party platforms and improve margins.
 
